@@ -10,7 +10,7 @@ $(function() {
     });
 
     function addCouses(courses) {
-    var $abzeichen = $('#badges');
+    var $zeichen = $('#badges');
     courses.forEach(function(course) {
       $('<div />', {
         'class': 'course'
